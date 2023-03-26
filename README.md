@@ -22,10 +22,6 @@ To install the Netflix Theme Changer extension, follow these steps:
 
 If you would like to contribute to this project, please fork the repository and submit a pull request with your changes. We welcome all contributions, including bug fixes, new features, and documentation improvements.
 
-## Credits
-
-This extension was created by [Your Name Here] and is licensed under the [MIT License](https://opensource.org/licenses/MIT).
-
 ## Feedback
 
 If you have any feedback or suggestions for this extension, please let us know by opening an issue on our GitHub repository. We appreciate your feedback and are always looking for ways to improve the extension.
