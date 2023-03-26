@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Netflix Themes",
+  "version": "1.0.0",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "description": "This browser extension allows users to customize the visual appearance of the Netflix platform by changing the color scheme, font styles, and background images. By providing a variety of pre-made themes and the ability to create custom themes, this extension enhances the viewing experience for users who prefer a more personalized look. The extension is easy to use and allows users to switch between themes quickly, making it a convenient and practical addition to their browsing experience. With this extension, users can transform the look of Netflix to match their style preferences, creating a more enjoyable and visually appealing streaming experience.",
+  "permissions": [
+    "tabs"
+  ],
+  "icons": {
+    "16": "n.png",
+    "32": "n.png",
+    "48": "n.png",
+    "128": "n.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://www.netflix.com/*"],
+      "js": ["content.js","jquery-3.6.4.min.js"]
+    }
+  ]
+}
